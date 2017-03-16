@@ -17,7 +17,7 @@ $(document).ready(function() {
 
     NavigationConfig = [
         {
-            Name: 'OTRS Admin Manual',
+            Name: 'OTRS 管理员手册',
             Type: 'manual',
             Path: 'admin',
             Versions: [
@@ -197,7 +197,7 @@ $(document).ready(function() {
                         }
 
                         Navigation += '<li><a href="' + BaseURL + 'manual/' + Category.Path + '/' + Version.HTMLPath + '/' + Language + '/html/index.html">HTML</a></li>';
-                        Navigation += '<li><a href="http://ftp.otrs.org/pub/otrs/doc/' + PDFPath + '/' + Version.Version + '/' + Language + '/pdf/' + PDFFileName + '">PDF</a></li>';
+                        Navigation += '<li><a href="http://ftp.otrs.org.cn/pub/otrs/doc/' + PDFPath + '/' + Version.Version + '/' + Language + '/pdf/' + PDFFileName + '">PDF</a></li>';
 
                     }
                     else {
@@ -215,7 +215,7 @@ $(document).ready(function() {
 
                             Navigation += '<li><a href="#">' + Languages[Language] + '</a><ul class="Hidden">';
                             Navigation += '<li><a href="' + BaseURL + 'manual/' + Category.Path + '/' + Version.HTMLPath + '/' + Language + '/html/index.html">HTML</a></li>';
-                            Navigation += '<li><a href="http://ftp.otrs.org/pub/otrs/doc/' + PDFPath + '/' + Version.Version + '/' + Language + '/pdf/' + PDFFileName + '">PDF</a></li>';
+                            Navigation += '<li><a href="http://ftp.otrs.org.cn/pub/otrs/doc/' + PDFPath + '/' + Version.Version + '/' + Language + '/pdf/' + PDFFileName + '">PDF</a></li>';
                             Navigation += '</ul></li>';
                         });
                     }
@@ -271,7 +271,7 @@ $(document).ready(function() {
         <div id="doc"></div>\
         <div id="footer">\
             <p class="copyright">\
-                &copy; 2001-2015 <a href="https://www.otrs.com/company/imprint/">OTRS Group</a>\
+                &copy; 2017 <a href="https://www.znuny.com.cn/">OTRS</a>\
             </p>\
         </div>\
     </div>\
@@ -343,7 +343,7 @@ $(document).ready(function() {
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-28118796-2', 'auto');
+    ga('create', 'UA-11509160-3', 'auto');
     ga('send', 'pageview');
     // End Google Analytics Tracking
 

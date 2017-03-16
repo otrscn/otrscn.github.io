@@ -6,22 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <meta name="description" content="OTRS on github: Source code of OTRS" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="doc/documentation.css">
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-28118796-2', 'auto');
-    ga('send', 'pageview');
-    </script>
-    <title>OTRS on github</title>
+    <title>OTRS 文档中心</title>
 </head>
 
 <body>
-    <a href="https://github.com/OTRS/otrs" target="_blank">
+    <a href="https://github.com/otrscn/otrscn.github.io" target="_blank">
         <img style="position: absolute; top: 0; left: 0; border: 0; z-index: 99;" src="https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png">
     </a>
     <div id="Header">
@@ -34,81 +25,56 @@
         <div id="content" class="no_sidebar">
             <div id="doc" class="intro">
                 <h1>
-                    Welcome to OTRS on github.
+                    欢迎你! 这是 OTRS 中文社区协作的文档中心.
                     <span>
-                        <a href="doc/index.html" target="_blank"><i class="fa fa-file-text"></i>&nbsp; Documentation</a>
-                        <a href="https://www.otrs.com" class="lightgreen" target="_blank"><i class="fa fa-external-link"></i>&nbsp; Learn more about OTRS</a>
-                        <a href="https://www.otrs.com/try" class="darkgreen" target="_blank"><i class="fa fa-download"></i>&nbsp; Download OTRS</a>
+                        <a href="doc/index.html" target="_blank"><i class="fa fa-file-text"></i>&nbsp; 文档</a>
+                        <a href="https://ask.otrs.org.cn" class="lightgreen" target="_blank"><i class="fa fa-external-link"></i>&nbsp; 中文社区</a>
+                        <a href="http://ftp.otrs.org.cn/pub/otrs/" class="darkgreen" target="_blank"><i class="fa fa-download"></i>&nbsp; 下载 OTRS</a>
                     </span>
                 </h1>
-                <p>
-                    All public repositories of OTRS can be found at <i class="fa fa-github"></i> <a href="https://github.com/OTRS">github</a>,
-                    for example the <i class="fa fa-github"></i> <a href="https://github.com/OTRS">OTRS framework itself</a>.
-                </p>
+<!--                <p>
+                    所有开源的 OTRS 仓库都可以在 <i class="fa fa-github"></i> <a href="https://github.com/OTRS">github</a> 上找到,
+                    例如 <i class="fa fa-github"></i> <a href="https://github.com/OTRS/otrs">OTRS 框架</a> 本身.
+                </p>-->
                 <div class="column">
-                    <h3>Contributions</h3>
+                    <h3>参与协作</h3>
                     <p>
-                        We are glad about all contributions that you may want to make.
-                        Please note that you need to accept the
-                        <i class="fa fa-file-text-o"></i> <a href="files/OTRS%20Contributor%20Agreement.pdf">OTRS contributor agreement</a> (CLA) once.
-                        This effectively means that you transfer the copyright of the code to OTRS &mdash;
-                        see <i class="fa fa-external-link"></i> <a href="http://julien.ponge.org/blog/in-defense-of-contributor-license-agreements/" target="_blank">this blog entry</a>
-                        for a discussion of when and why it is good for open source projects to use a CLA.
-                        Please print and sign this document and <i class="fa fa-envelope-o"></i> <a href="mailto:cla@otrs.com?subject=Signed%20OTRS%20CLA">send us the scan</a>
-                        and your github username.
+                        我们十分欢迎你参与到社区协作. 在加入我们之前请留意, 你需要签署
+                        <i class="fa fa-file-text-o"></i> <a href="files/OTRS%20Contributor%20Agreement.pdf">OTRS 协作协议</a> 简称(CLA).简而言之就是要转让代码的所有权给 OTRS &mdash;关于这之前有过一个争论 , 见这个<i class="fa fa-external-link"></i> <a href="http://julien.ponge.org/blog/in-defense-of-contributor-license-agreements/" target="_blank">博客</a>. 作为开源项目来说, 此时比较好的解决办法就是先签署一份 CLA.请打印签上你的名字和 github 的用户名之后 <i class="fa fa-envelope-o"></i> <a href="mailto:cla@otrs.com?subject=Signed%20OTRS%20CLA">扫描并发给我们</a>.
                     </p>
                     <p>
-                        While the <a href="doc/manual/admin/stable/en/html/index.html">administrator's manual</a> has lots of information about how to
-                        setup, use and tune OTRS, there is also a <a href="doc/manual/developer/stable/en/html/index.html">developer's manual</a>
-                        that goes into the details of OTRS development. It can tell you
-                        <a href="doc/manual/developer/stable/en/html/get-started.html#development-environment">how to setup a development environment</a>
-                        and <a href="doc/manual/developer/stable/en/html/contributing.html">how you can contribute to OTRS</a>.
+                        这份 <a href="doc/manual/admin/stable/zh_CN/html/index.html">管理员手册</a> 包含了很多信息帮助如何安装, 使用 和 调试 OTRS, 而这份 <a href="doc/manual/developer/stable/en/html/index.html">开发者手册(英文)</a> 包含了详细的 OTRS 开发信息, 这份手册告诉你 <a href="doc/manual/developer/stable/en/html/get-started.html#development-environment">如何搭建开发环境(英)</a> 和 <a href="doc/manual/developer/stable/en/html/contributing.html">如何协作 OTRS (英)</a>.
                     </p>
                     <p>
-                        The contributing section also has information about the
-                        <a href="doc/manual/developer/stable/en/html/code-style-guide.html">OTRS code style guide</a> that you should read and follow.
-                        We also recommend that you checkout and use <i class="fa fa-github"></i> <a href="https://github.com/OTRS/otrscodepolicy">the OTRSCodePolicy</a>
-                        module. You can run this manually on your code and/or register it as a git commit hook that will perform the
-                        checks every time that you commit. Please see
-                        <i class="fa fa-external-link"></i> <a href="https://github.com/OTRS/otrscodepolicy/blob/master/doc/en/OTRSCodePolicy.xml">the module documentation</a> for details.
-                        Using this module before sending a pull request is mandatory.
+                        在协作这一章还详细说明了有关 <a href="doc/manual/developer/stable/en/html/code-style-guide.html">OTRS 代码风格指南</a>, 请你预先阅读并遵守. 我们推荐使用这个 <i class="fa fa-github"></i> <a href="https://github.com/OTRS/otrscodepolicy">OTRSCodePolicy</a> 模块来检查. 你也可以每次提交/注册之前进行手工检查之, 详细请参考该
+                        <i class="fa fa-external-link"></i> <a href="https://github.com/OTRS/otrscodepolicy/blob/master/doc/en/OTRSCodePolicy.xml">模块</a> 的说明, 通过 github 发送 PR 之前使用这个模块是必要的.
                     </p>
                     <p>
-                        There is also a debugging/analysis module that can help developers in their work: <i class="fa fa-github"></i> <a href="https://github.com/OTRS/Fred">Fred</a>.
-                        It has several helpful tools like an SQL log module, a STDERR log module, JSLint based JavaScript code style verification and a simple HTML best practice checker.
+                        这里有一个 除错/分析 模块可以帮助开发人员: <i class="fa fa-github"></i> <a href="https://github.com/OTRS/Fred">Fred</a>. 它可以提供一些帮助, 例如数据库 SQL 日志输出, 错误日志输出, 基于 JavaScript 的 JSLint 代码校验以及 HTML 优化器.
                     </p>
                     <p>
-                        If you have any questions, please don't hesitate to ask on the
-                        <i class="fa fa-external-link"></i> <a href="http://lists.otrs.org/cgi-bin/listinfo/dev">developer's mailing list</a>.
+                        如果有任何疑问, 请马上向 <i class="fa fa-external-link"></i> <a href="http://lists.otrs.org/cgi-bin/listinfo/dev">开发者邮件列表</a> 发问.
                     </p>
                 </div>
                 <div class="column">
-                    <h3>Branches</h3>
+                    <h3>稳定分支</h3>
                     <p>
-                        The current maintenance branch of OTRS is <i class="fa fa-github"></i> <a href="https://github.com/OTRS/otrs/tree/rel-5_0">rel-5_0</a>.
-                        All bugfixes should be applied to this branch. New features will not be accepted in a stable branch but should
-                        be directed to <i class="fa fa-github"></i> <a href="https://github.com/OTRS/otrs/tree/master">the master branch</a> instead.
+                        当前维护的 OTRS 分支是 <i class="fa fa-github"></i> <a href="https://github.com/OTRS/otrs/tree/rel-5_0">rel-5_0</a>. 所有的 bug 修正将被合并到该分支持. 新的功能合并到稳定版本是不允许的, 而是加入到 <i class="fa fa-github"></i> <a href="https://github.com/OTRS/otrs/tree/master">Master</a> 分支.
                     </p>
 
-                    <h3>Translating OTRS</h3>
+                    <h3>本地化 OTRS</h3>
                     <p>
-                        Translators should use <i class="fa fa-external-link"></i> <a href="https://www.transifex.com/projects/p/OTRS/" target="_blank">Transifex</a> to translate OTRS. We have summarized all you need to know about translating the <i class="fa fa-github"></i> <a href="doc/manual/developer/stable/en/html/translate.html">OTRS Help Desk</a> or the <i class="fa fa-github"></i> <a href="doc/manual/developer/stable/en/html/translating-docs.html">OTRS Documentation</a>.
+                        翻译人员可以通过 <i class="fa fa-external-link"></i> <a href="https://www.transifex.com/projects/p/OTRS/" target="_blank">Transifex</a> 来本地化 OTRS. 我们简单的让你了解如何翻译 <i class="fa fa-github"></i> <a href="doc/manual/developer/stable/en/html/translate.html">OTRS 服务台</a> 和 <i class="fa fa-github"></i> <a href="doc/manual/developer/stable/en/html/translating-docs.html">OTRS 文档</a>.
                     </p>
 
-                    <h3>Professional Services for OTRS – <strong>OTRS Business Solution</strong>™</h3>
-                    <p>
-                        Our <i class="fa fa-external-link"></i> <a href="https://www.otrs.com/otrs-business-solution-improving-customer-service/" target="_blank">OTRS Business Solution</a>™ offers you best professional support from the OTRS team, reliable OTRS security and regular free updates as well as an <i class="fa fa-external-link"></i> <a href="https://www.otrs.com/solutions/otrs-business-solution-on-premise/#integrated-business-features" target="_blank">exclusive set of additional Business Features</a> that you can flexibly activate or deactivate according to different deployment scenarios.
-                    </p>
+                    <h3>OTRS 专业服务</h3>
 
-                    <p>The <i class="fa fa-external-link"></i> <a href="http://www.otrs.com/">OTRS Group</a> offers specific
-                    <i class="fa fa-external-link"></i> <a href="http://www.otrs.com/en/solutions/training/">training programs</a> in different countries.
-                    You can either participate in one of our public OTRS Administrator training seminars which take place regularly,
-                    or benefit from an inhouse training seminar that covers all the specific needs of your company.</p>
+                    <p>在德国本土 <i class="fa fa-external-link"></i> <a href="http://www.znuny.com/">Znuny</a> 有特别提供商业务服, 而在中国的 <i class="fa fa-external-link"></i> <a href="https://www.znuny.com.cn">上海舜迎信息</a> 针对中国客户提供商业支持服务. Znuny 同时也协助运营 <i class="fa fa-external-link"></i> <a href="https://ask.otrs.org.cn/">OTRS 中文社区</a>.</p>
                 </div>
             </div>
             <div id="footer">
                 <p class="copyright">
-                    &copy; 2001-2015 <a href="https://www.otrs.com/company/imprint/">OTRS Group</a>
+                    &copy; 2001-2015 <a href="https://www.otrs.com/company/imprint/">OTRS Group</a>, &copy; 2016-2017 <a href="https://ask.otrs.org.cn">OTRS 中文社区</a>
                 </p>
             </div>
         </div>

@@ -1192,11 +1192,11 @@ span.command {
 
 #Header #Logo {
     position: absolute;
-    background-image: url(https://portal.otrs.com//otrs-web/skins/Agent/default/img/logo-portal.png);
-    height: 55px;
+    background-image: url(https://www.znuny.com.cn/assets/logo_small.png);
+    height: 46px;
     right: 20px;
     top: 7px;
-    width: 230px;
+    width: 150px;
 }
 
 #Header h1.CompanyName {
